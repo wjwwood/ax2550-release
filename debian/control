@@ -1,0 +1,12 @@
+Source: ros-hydro-ax2550
+Section: misc
+Priority: extra
+Maintainer: William Woodall <wjwwood@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-serial, ros-hydro-serial-utils, ros-hydro-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-ax2550
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-serial, ros-hydro-serial-utils, ros-hydro-tf
+Description: Package which provides a library and a ROS ndoe for interfacing with the Roboteq AX2550 motor controller.
