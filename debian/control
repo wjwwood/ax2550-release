@@ -1,0 +1,12 @@
+Source: ros-indigo-ax2550
+Section: misc
+Priority: extra
+Maintainer: William Woodall <wjwwood@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-serial, ros-indigo-serial-utils, ros-indigo-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ax2550
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-serial, ros-indigo-serial-utils, ros-indigo-tf
+Description: Package which provides a library and a ROS ndoe for interfacing with the Roboteq AX2550 motor controller.
