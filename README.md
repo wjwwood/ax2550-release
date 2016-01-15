@@ -1,3 +1,24 @@
+## ax2550 (indigo) - 0.1.1-1
+
+The packages in the `ax2550` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo ax2550` on `Fri, 15 Jan 2016 18:58:30 -0000`
+
+The `ax2550` package was released.
+
+Version of package(s) in repository `ax2550`:
+- upstream repository: https://github.com/wjwwood/ax2550.git
+- release repository: https://github.com/wjwwood/ax2550-release.git
+- rosdistro version: `0.1.1-0`
+- old version: `0.1.1-0`
+- new version: `0.1.1-1`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## ax2550 (indigo) - 0.1.1-0
 
 The packages in the `ax2550` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo ax2550 -n` on `Tue, 15 Jul 2014 20:48:43 -0000`
